@@ -1,7 +1,7 @@
 import axios from "axios"
 
 // const API_BASE_URL = process.env.REACT_APP_API_URI
-const API_BASE_URL = "https://impossible-ant-tie.cyclic.cloud/"
+const API_BASE_URL = "https://impossible-ant-tie.cyclic.cloud"
 
 export const Start_Login = () => {
     alert(API_BASE_URL + '/auth/google');
