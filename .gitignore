@@ -1,3 +1,5 @@
 node_modules
 Oauth20.json
 .env
+# Local Netlify folder
+.netlify

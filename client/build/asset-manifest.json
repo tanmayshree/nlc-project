@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fe337fe.css",
+    "main.js": "/static/js/main.05b1d628.js",
+    "static/media/img-1.jpg": "/static/media/img-1.6c356d72f790bb0a1578.jpg",
+    "static/media/img-2.png": "/static/media/img-2.158e63baa80c97462d19.png",
+    "static/media/eventPoster.jpg": "/static/media/eventPoster.c0cabbd95f878a3e75de.jpg",
+    "static/media/404Image.jpg": "/static/media/404Image.10e2354145f770ba09c6.jpg",
+    "static/media/aboutHero.png": "/static/media/aboutHero.66d3d8f2d65d44d02f3a.png",
+    "static/media/logo-white.png": "/static/media/logo-white.c468698f904c26f547b4.png",
+    "static/media/D-Zire.png": "/static/media/D-Zire.73fe5cc91e0d010a5de3.png",
+    "static/media/Aaveg.png": "/static/media/Aaveg.d5cc731c2484a0a536a0.png",
+    "static/media/pattern6.png": "/static/media/pattern6.bec7ab2018904dfc4455.png",
+    "static/media/sargam.png": "/static/media/sargam.373ef8e8a132902b5ca5.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.2fe337fe.css.map": "/static/css/main.2fe337fe.css.map",
+    "main.05b1d628.js.map": "/static/js/main.05b1d628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fe337fe.css",
+    "static/js/main.05b1d628.js"
+  ]
+}
