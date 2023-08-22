@@ -17,6 +17,7 @@ router.get('/google/callback', passport.authenticate('google', {
 );
 
 router.get('/login/success', async (req, res) => {
+    console.log(req)
     if (req.user) {
         const { googleId } = req.user;
         const userProfile = await UserProfileModel.findOne({ googleId });
