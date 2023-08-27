@@ -14,7 +14,7 @@ const path = require('path');  // Import the Path module
 
 // Enabling cross origin requests
 const corsOptions = {
-    origin: ["https://nita-lit-club.netlify.app","http://localhost:3000", "http://localhost:3001", "*"],
+    origin: ["https://nita-lit-club.netlify.app","http://localhost:3000", "http://localhost:3001", "https://admin-nita-lit-club.netlify.app"],
     credentials: "true",
     optionsSuccessStatus: 200
 }
