@@ -8,7 +8,9 @@ const passport = require('passport');
 const expressSession = require("express-session");
 require('./config/passport-setup');
 const mongoStore = require('connect-mongo');
-
+const https = require('https');  // Import the HTTPS module
+const fs = require('fs');  // Import the File System module
+const path = require('path');  // Import the Path module
 
 // Enabling cross origin requests
 const corsOptions = {
@@ -18,13 +20,6 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 
-app.use((req, res, next) => {
-    if (req.secure) {
-        next();
-    } else {
-        res.redirect(`https://${req.headers.host}${req.url}`);
-    }
-});
 
 // Enabling pre-flight reqeust across 
 app.options('*', cors(corsOptions));
