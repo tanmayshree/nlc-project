@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2fe337fe.css",
-    "main.js": "/static/js/main.c6cc2479.js",
+    "main.js": "/static/js/main.97a04daf.js",
     "static/media/img-1.jpg": "/static/media/img-1.6c356d72f790bb0a1578.jpg",
     "static/media/img-2.png": "/static/media/img-2.158e63baa80c97462d19.png",
     "static/media/eventPoster.jpg": "/static/media/eventPoster.c0cabbd95f878a3e75de.jpg",
@@ -18,10 +18,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.2fe337fe.css.map": "/static/css/main.2fe337fe.css.map",
-    "main.c6cc2479.js.map": "/static/js/main.c6cc2479.js.map"
+    "main.97a04daf.js.map": "/static/js/main.97a04daf.js.map"
   },
   "entrypoints": [
     "static/css/main.2fe337fe.css",
-    "static/js/main.c6cc2479.js"
+    "static/js/main.97a04daf.js"
   ]
 }
