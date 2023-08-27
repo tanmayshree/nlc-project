@@ -69,10 +69,8 @@ app.use("/auth", require("./routes/userAuthRoutes"));
 app.use("/user", require("./routes/userRoutes"));
 app.use("/admin", require("./routes/adminRoutes"));
 
-// create server
-const server = https.createServer(app);
 
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log("server is running on", PORT);
 });
