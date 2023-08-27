@@ -12,8 +12,8 @@ const mongoStore = require('connect-mongo');
 
 // Enabling cross origin requests
 const corsOptions = {
-    origin: ["https://nita-lit-club.netlify.app","http://localhost:3000", "http://localhost:3001"],
-    credentials: true,
+    origin: ["https://nita-lit-club.netlify.app","http://localhost:3000", "http://localhost:3001", "*"],
+    credentials: "true",
     optionsSuccessStatus: 200
 }
 app.use(cors(corsOptions));
