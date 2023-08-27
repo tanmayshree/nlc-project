@@ -9,6 +9,7 @@ const expressSession = require("express-session");
 require('./config/passport-setup');
 const mongoStore = require('connect-mongo');
 
+
 // Enabling cross origin requests
 const corsOptions = {
     origin: ["https://nita-lit-club.netlify.app","http://localhost:3000", "http://localhost:3001"],
@@ -17,6 +18,13 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 
+app.use((req, res, next) => {
+    if (req.secure) {
+        next();
+    } else {
+        res.redirect(`https://${req.headers.host}${req.url}`);
+    }
+});
 
 // Enabling pre-flight reqeust across 
 app.options('*', cors(corsOptions));
